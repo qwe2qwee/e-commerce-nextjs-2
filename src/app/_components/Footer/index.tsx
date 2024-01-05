@@ -49,7 +49,7 @@ export async function Footer() {
             Source Code
           </Link>
           <Link href="https://payloadcms.com" target="_blank" rel="noopener noreferrer">
-            Payloadd
+            Payloa
           </Link>
         </nav>
       </Gutter>
