@@ -49,7 +49,7 @@ const start = async (): Promise<void> => {
   app.use((req, res) => nextHandler(req, res))
 
   nextApp.prepare().then(() => {
-    payload.logger.info('Starting Next.js...')
+    payload.logger.info('Starting Next.js....')
 
     app.listen(PORT, async () => {
       payload.logger.info(`Next.js App URL: ${process.env.PAYLOAD_PUBLIC_SERVER_URL}`)
